@@ -26,10 +26,27 @@ public class AnagramString {
         return is_anagram;
     }
 
+    public static boolean isAnagram2(String s, String t) {
+        if(s.length() != t.length()) {
+            return false;
+        }
+        int char_counter[] = new int[26];
+        for(int i = 0; i < s.length(); i++) {
+            char_counter[s.charAt(i) - 'a']++;
+            char_counter[t.charAt(i) - 'a']--;
+        }
+        for(int count: char_counter) {
+            if(count!=0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
     public static void main(String[] args){
         String str1 = "anagram";
-        String str2 = "nagarbm";
-        if(isAnagram(str1, str2)) {
+        String str2 = "nagaram";
+        if(isAnagram2(str1, str2)) {
             System.out.println("is anagram");
         }else {
             System.out.println("not anagram");
