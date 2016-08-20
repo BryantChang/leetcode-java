@@ -10,6 +10,7 @@ public class AnagramString {
         return String.valueOf(str_arr);
     }
 
+    //sort based
     public static boolean isAnagram(String s, String t) {
         boolean is_anagram = false;
         if(s.length() != t.length()) {
@@ -26,6 +27,7 @@ public class AnagramString {
         return is_anagram;
     }
 
+    //hash table based
     public static boolean isAnagram2(String s, String t) {
         if(s.length() != t.length()) {
             return false;

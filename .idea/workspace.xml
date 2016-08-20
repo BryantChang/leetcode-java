@@ -26,8 +26,8 @@
       <file leaf-file-name="AnagramString.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AnagramString/AnagramString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51766515">
-              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.2565284">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -490,12 +490,12 @@
       <updated>1471593653068</updated>
       <workItem from="1471593659690" duration="199000" />
       <workItem from="1471593906840" duration="2624000" />
-      <workItem from="1471661262167" duration="139000" />
+      <workItem from="1471661262167" duration="603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2962000" />
+    <option name="totallyTimeSpent" value="3426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -557,8 +557,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnagramString/AnagramString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51766515">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.2565284">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
           <folding />
         </state>
       </provider>
